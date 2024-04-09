@@ -1,5 +1,5 @@
 import './App.css';
-import './Canvas.js';
+import Grid from "./Grid";
 
 function App() {
   return (
@@ -13,8 +13,7 @@ function App() {
         </div>
       </div>
       <div className='home-content'>
-          Grid function here
-          
+          <Grid/>
       </div>
     </div>
   );

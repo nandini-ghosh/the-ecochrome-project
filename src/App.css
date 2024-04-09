@@ -25,8 +25,22 @@
 }
 
 .home-content {
-  padding: 40px;
+  padding: 80px;
   background-color:#2D2D28;
   color:#FFFFFF;
   font-family: "Lucida Console", monospace;
+  padding-bottom: 200px;
+  display: flex;
+}
+
+/* Grid.css */
+.cell {
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #2D2D28;
+}
+
+.row {
+  background-color: #FFFFFF;
 }
