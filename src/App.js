@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className='menu-bar'>
-        <div className='menu-logo'>The Echochrome Project</div>
+        <div className='menu-logo'>The Ecochrome Project</div>
         <div className='menu-items'>
           <div className='menu-item'>paint!</div>
           <div className='menu-item'>about</div>
