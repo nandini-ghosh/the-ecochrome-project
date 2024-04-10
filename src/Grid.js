@@ -3,21 +3,16 @@ import './App.css'; // Import CSS file
 
 function Grid() {
   const [isMouseDown, setIsMouseDown] = useState(false);
-  const [backRGB, setBackRGB] = useState('#000000'); // Initialize color state
+  const [currentColor, setCurrentColor] = useState('#000000'); 
 
   useEffect(() => {
-    // Add event listener for color picker change
+    
     const colorPicker = document.getElementById("colorpicker");
     if (colorPicker) {
       colorPicker.addEventListener('input', handleColorChange);
     }
-    // Remove event listener when component unmounts
-    return () => {
-      if (colorPicker) {
-        colorPicker.removeEventListener('input', handleColorChange);
-      }
-    };
-  }, []); // Empty dependency array to run only once on component mount
+    
+  }, []); 
 
   const handleMouseDown = () => {
     setIsMouseDown(true);
@@ -31,7 +26,7 @@ function Grid() {
     if (isMouseDown) {
       const target = e.target;
       if (target.tagName === 'TD') {
-        target.style.backgroundColor = backRGB; // Use color state here
+        target.style.backgroundColor = currentColor;
       }
     }
   };
@@ -39,12 +34,12 @@ function Grid() {
   const handleClick = (e) => {
     var target = (e).target;
     if (target.tagName in { TD: 1, TH: 1 })
-      target.setAttribute('style', `background-color: ${backRGB}`);
+      target.setAttribute('style', `background-color: ${currentColor}`);
   };
 
   const handleColorChange = (e) => {
     const newColor = e.target.value;
-    setBackRGB(newColor); // Update color state
+    setCurrentColor(newColor); 
   };
 
   const tableRows = [];
@@ -69,7 +64,7 @@ function Grid() {
         </tbody>
       </table>
 
-      <input className="colour-picker" type="color" value={backRGB} id="colorpicker" />
+      <input className="colour-picker" type="color" value={currentColor} id="colorpicker" />
     </div>
   );
 }
