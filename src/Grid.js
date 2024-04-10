@@ -46,7 +46,7 @@ function Grid() {
 
   for (let i = 0; i < 10; i++) {
     const cells = [];
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 20; j++) {
       cells.push(<td key={`cell-${i}-${j}`} className="cell"
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
@@ -64,6 +64,7 @@ function Grid() {
         </tbody>
       </table>
 
+      <div className='label'>Click to pick a color:</div>
       <input className="colour-picker" type="color" value={currentColor} id="colorpicker" />
     </div>
   );
