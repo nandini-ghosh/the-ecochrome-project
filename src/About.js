@@ -1,6 +1,7 @@
 import './App.css';
 import { Link } from "react-router-dom";
 
+
 function About() {
     let isColorChanged = false;
 
@@ -85,6 +86,8 @@ function About() {
                         using different colours on OLED screens can impact the power usage of the device
                         and thereby contribute to the overall eco-friendliness of the device.
                     </div>
+
+                    <img className="chart" src='/images/Google-OLED-Color-Usage.png' alt="A chart showing different energy consumptions by RGB colors on an OLED screen published by Google."></img>
 
                     <div className='subheader' id="subheader-2">MY INSPIRATION</div>
                     <div className='paragraph-text'>

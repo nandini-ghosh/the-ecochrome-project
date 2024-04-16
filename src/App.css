@@ -5,6 +5,11 @@ a:hover {
   color:#EA89E6;
 }
 
+.chart {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 .menu-bar {
   height: 70px;
   padding: 40px;
