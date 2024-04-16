@@ -1,3 +1,10 @@
+a {
+  color:#EA89E6;
+}
+a:hover {
+  color:#EA89E6;
+}
+
 .menu-bar {
   height: 70px;
   padding: 40px;
@@ -64,6 +71,7 @@
   margin-left: 15px;
   width: 100px;
   height: 100px;
+  border: none;
 }
 
 .colour-picker-wrapper {
@@ -84,6 +92,7 @@
   padding: 5px;
   border-radius: 10px;
   color:#2D2D28;
+  background-color: #FFFFFF;
   font-family: "Lucida Console", monospace;
   font-size: 14pt;
 }
@@ -132,13 +141,18 @@
 .subheader {
   font-size: 16pt;
   color:#F2FF59;
-  margin-top: 25px;
+  margin-top: 32px;
   margin-bottom: 10px;
+}
+
+.paragraph-text {
+  margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 .credit-text {
   font-size: 12pt;
   color:#F2FF59;
-  padding-top: 150px;
+  padding-top: 80px;
   text-align: center;
 }

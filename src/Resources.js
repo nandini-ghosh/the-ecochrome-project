@@ -1,8 +1,7 @@
 import './App.css';
-import Grid from "./Grid";
 import { Link } from "react-router-dom";
 
-function Paint() {
+function Resources() {
   return (
     <div>
       <div className='menu-bar'>
@@ -16,10 +15,10 @@ function Paint() {
         </div>
       </div>
       <div className='home-content'>
-          <Grid/>
+          
       </div>
     </div>
   );
 }
 
-export default Paint;
+export default Resources;
