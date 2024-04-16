@@ -56,8 +56,8 @@ function Resources() {
                             </li>
 
                             <li>
-                                The energy bar's math is calculated using approximations derived from the Google
-                                research chart. All white is considered 100%, and all black is considered 0% (although keep in mind
+                                The energy bar's math is calculated using approximations derived from the <Link to='/about'>Google
+                                research chart.</Link> All white is considered 100%, and all black is considered 0% (although keep in mind
                                 that black will never be fully 0%, and would be closer to 10%. This was changed for ease of uniform calculations
                                 in the tool). In comparision, the R, G, B values are weighted at 0.25, 0.3 and 0.6 respectively. This is 
                                 because according to the chart, red consumes about 25%, green about 30% and blue about 60% (if white is 100%).
