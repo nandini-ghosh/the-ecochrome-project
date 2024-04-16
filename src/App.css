@@ -5,6 +5,10 @@ a:hover {
   color:#EA89E6;
 }
 
+body {
+  background-color: #2D2D28;
+}
+
 .chart {
   width: 100%;
   margin-bottom: 50px;
