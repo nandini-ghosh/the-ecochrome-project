@@ -22,6 +22,8 @@
   margin-left: 25px;
   margin-right: 25px;
   font-size: 16pt;
+  color:#F2FF59;
+  text-decoration: none;
 }
 
 .home-content {
@@ -31,11 +33,13 @@
   font-family: "Lucida Console", monospace;
   padding-bottom: 200px;
   display: flex;
+  text-align: justify;
 }
 
 .label {
   width: 100px;
   overflow-wrap: normal;
+  text-align: left;
 }
 
 /* Grid.css */
@@ -73,6 +77,7 @@
   margin-left: 50px;
 }
 
+/** Buttons */
 .reset-button {
   height: 50px;
   width: 100%;
@@ -83,15 +88,57 @@
   font-size: 14pt;
 }
 
+.light-bulb {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 25pt;
+  background-color: black;
+  border: 0;
+  margin-right: 25px;
+}
+
+.light-bulb-wrapper {
+ display: flex;
+ font-size: 10pt;
+ margin: auto;
+ align-items: center;
+ margin-bottom: 50px;
+ border: 1px solid;
+ border-color:  white;
+ padding: 10px
+}
+
 /** Bar */
 .bar {
   width: 100%;
-  background-color: #ddd;
+  background-color: black;
   margin: 10px 0;
+  margin-bottom: 50px;
 }
 
 .bar-fill {
-  height: 20px;
-  background-color: blue;
+  height: 25px;
+  background-color: #F2FF59;
   transition: width 0.5s ease-in-out;
+}
+
+/**Text*/
+.text-block {
+  width: 60%;
+  margin: auto;
+}
+.subheader {
+  font-size: 16pt;
+  color:#F2FF59;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.credit-text {
+  font-size: 12pt;
+  color:#F2FF59;
+  padding-top: 150px;
+  text-align: center;
 }

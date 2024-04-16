@@ -79,6 +79,8 @@ function Grid() {
     return percentage / 200;
   };
 
+  console.log(percentage)
+
   const calculatePercentage = (cellColors) => {
     const newPercentage = calculateTotalEnergy(cellColors);
     setPercentage(newPercentage);
@@ -107,6 +109,7 @@ function Grid() {
 
   return (
     <div>
+      <div className='label-bar'>ENERGY CONSUMED BY THE CANVAS: {percentage}%</div>
       <Bar percent={percentage} />
       <div className='grid'>
         <table id="grid-table" className="grid-table">

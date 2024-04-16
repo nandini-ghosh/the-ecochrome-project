@@ -1,21 +1,19 @@
 import './App.css';
-import Grid from "./Grid";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Paint from './Paint';
+import About from './About';
 
 function App() {
   return (
-    <div>
-      <div className='menu-bar'>
-        <div className='menu-logo'>The Ecochrome Project</div>
-        <div className='menu-items'>
-          <div className='menu-item'>paint!</div>
-          <div className='menu-item'>about</div>
-          <div className='menu-item'>resources</div>
-        </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Navigate to="/paint" />} />
+          <Route path="/paint" element={<Paint />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </div>
-      <div className='home-content'>
-          <Grid/>
-      </div>
-    </div>
+    </Router>
   );
 }
 
