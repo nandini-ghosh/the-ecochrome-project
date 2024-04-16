@@ -10,7 +10,7 @@ function Paint() {
         <div className='menu-items'>
           <Link className='menu-item' to="/paint">paint!</Link>
           <Link className='menu-item' to="/about">about</Link>
-          <Link className='menu-item' to="/resources">Resources</Link>
+          <Link className='menu-item' to="/resources">resources</Link>
         </div>
       </div>
       <div className='home-content'>

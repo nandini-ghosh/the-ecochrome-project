@@ -53,7 +53,7 @@ function About() {
                 <div className='menu-items'>
                     <Link className='menu-item' id="item-1" to="/paint">paint!</Link>
                     <Link className='menu-item' id="item-2" to="/about">about</Link>
-                    <Link className='menu-item' id="item-3" to="/resources">Resources</Link>
+                    <Link className='menu-item' id="item-3" to="/resources">resources</Link>
                 </div>
             </div>
             <div className='home-content' id="home-content">
