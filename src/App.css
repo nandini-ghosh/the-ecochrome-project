@@ -139,10 +139,32 @@ a:hover {
   margin: auto;
 }
 .subheader {
-  font-size: 16pt;
+  font-size: 20pt;
   color:#F2FF59;
-  margin-top: 32px;
+  margin-top: 20px;
   margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 12pt;
+  color:#F2FF59;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.pink {
+  color:#EA89E6;
+}
+
+.blue {
+  color:#7E9AFF;
+}
+
+.large {
+  font-size: 24pt;
+  letter-spacing: 8pt;
+  margin-bottom: 0px;
 }
 
 .paragraph-text {
@@ -155,4 +177,8 @@ a:hover {
   color:#F2FF59;
   padding-top: 80px;
   text-align: center;
+}
+
+li {
+  margin-bottom: 20px;
 }
