@@ -49,7 +49,6 @@ function Resources() {
                                 it's important to never use white text on a pure black background (to be gentle on the eyes).
                                 For this reason, I chose to use a deep green-grey background instead, with a bamboo green highlight colour
                                 and a fuschia pink for accents.
-                                <div clas
                             </li>
 
                             <li>The code used on this website is entirely my own, but I did use several open-source references which are
