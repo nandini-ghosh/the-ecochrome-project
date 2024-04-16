@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Navigate to="/paint" />} />
           <Route path="/paint" element={<Paint />} />
           <Route path="/about" element={<About />} />
-          <Route path="/about" element={<Resources />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </div>
     </Router>
