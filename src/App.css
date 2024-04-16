@@ -34,7 +34,6 @@
 }
 
 .label {
-  padding-left: 50px;
   width: 100px;
   overflow-wrap: normal;
 }
@@ -42,10 +41,11 @@
 /* Grid.css */
 .cell {
   padding: 8px;
-  width: 20px;
-  height: 20px;
+  width: 20px !important; 
+  height: 20px !important;
   border: 1px solid #2D2D28;
   pointer-events: 'none';
+  background-color: #FFFFFF;
 }
 
 .row {
@@ -60,4 +60,38 @@
   margin-left: 15px;
   width: 100px;
   height: 100px;
+}
+
+.colour-picker-wrapper {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grid-controls {
+  display: block;
+  margin-left: 50px;
+}
+
+.reset-button {
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  color:#2D2D28;
+  font-family: "Lucida Console", monospace;
+  font-size: 14pt;
+}
+
+/** Bar */
+.bar {
+  width: 100%;
+  background-color: #ddd;
+  margin: 10px 0;
+}
+
+.bar-fill {
+  height: 20px;
+  background-color: blue;
+  transition: width 0.5s ease-in-out;
 }
